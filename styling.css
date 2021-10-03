@@ -1,0 +1,85 @@
+body{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    background-image: url("images/alexander-popov-3InMDrsuYrk-unsplash.jpg");
+    height: 600px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+   
+}
+
+.navigationbar{
+    padding-left: 50px;
+}
+
+.music_container{
+    background-color: rgb(167, 166, 166);
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    margin-top: 50px;
+}
+.main{
+    display: grid;
+    place-items: center;
+}
+#imagesinside{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+h2,h3{
+    color: rgb(109, 103, 103);
+    margin-top: 1rem;
+}
+h1{
+    color: rgb(70, 65, 47);
+    font-family: monospace;
+    font-weight: bolder;
+    background-color: rgb(117, 148, 153);
+}
+
+
+#backward,#forward{
+    font-size: 2rem;
+    color: rgb(150, 156, 158);
+    margin-right: 10px;
+}
+
+#play,#pause{
+    font-size: 2rem;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: rgb(116, 135, 155);
+
+}
+#play:hover,#backward:hover,#forward:hover{
+    color: black;
+}
+
+.animation{
+    animation: rotateplayer 5s linear infinite ;
+}
+@keyframes rotateplayer {
+    for{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.footer{
+    margin-top: 3rem;
+    margin-bottom: 0;
+    background-color: rgb(117, 148, 153);
+}
+
+p{
+    padding:10px;
+    color: rgb(70, 65, 47);
+}
